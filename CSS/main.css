@@ -241,7 +241,7 @@
 .text-right{
 	text-align: right;
 }
-/* .hover-zoom{
+.hover-zoom{
 	height: 350px;
 	overflow: hidden;
 }
@@ -251,7 +251,7 @@
 }
 .hover-zoom img:hover{
 	transform: scale(1.1);
-} */
+}
 .text-center{
 	text-align: center;
 }
