@@ -241,7 +241,7 @@
 .text-right{
 	text-align: right;
 }
-.hover-zoom{
+/* .hover-zoom{
 	height: 350px;
 	overflow: hidden;
 }
@@ -251,7 +251,7 @@
 }
 .hover-zoom img:hover{
 	transform: scale(1.1);
-}
+} */
 .text-center{
 	text-align: center;
 }
@@ -334,7 +334,7 @@ ion-icon {
 .text4 li a:hover{
 	text-decoration: underline;
 }
-.hover-zoom1{
+/* .hover-zoom1{
 	background: url("../Image/samsung2022neoqled8k.jpg");
 	height: 350px;
 	background-position: center;
@@ -375,4 +375,4 @@ ion-icon {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+} */
