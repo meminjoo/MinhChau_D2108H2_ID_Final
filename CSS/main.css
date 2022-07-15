@@ -241,7 +241,7 @@
 .text-right{
 	text-align: right;
 }
-.hover-zoom{
+/* .hover-zoom{
 	height: 350px;
 	overflow: hidden;
 }
@@ -249,9 +249,9 @@
 	width: 100%;
 	transition: .8s all ease-in-out;
 }
-.hover-zoom:hover img{
+.hover-zoom img:hover{
 	transform: scale(1.1);
-}
+} */
 .text-center{
 	text-align: center;
 }
@@ -333,4 +333,46 @@ ion-icon {
 }
 .text4 li a:hover{
 	text-decoration: underline;
+}
+.hover-zoom1{
+	background: url("../Image/samsung2022neoqled8k.jpg");
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hover-zoom2{
+	background: url("../Image/Samsung-Bespoke-Two-Door-Refrigerator-Alex-Proba.jpeg");
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hover-zoom3{
+	background: url("../Image/bulgari-header.jpg");
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hover-zoom4{
+	background: url("../Image/IMG_5369.jpg");
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hover-zoom5{
+	background: url("../Image/ofelia.jpg");
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hover-zoom6{
+	background: url("../Image/hospital-playlist-2.jpg");
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
