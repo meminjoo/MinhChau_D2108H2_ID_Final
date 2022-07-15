@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap');
+.justify-between{
+	justify-content: space-between
+}
+.justify-around{
+	justify-content: space-around
+}
+.justify-center{
+	justify-content: center
+}
+.justify-start{
+	justify-content: flex-start
+}
+.justify-end{
+	justify-content: flex-end
+}
+.align-center{
+	align-items: center
+}
+.align-content-center{
+	align-content: center;
+}
+.align-end{
+	align-self: flex-end
+}
+.align-start{
+	align-items: flex-start;
+}
+.header{
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	background: rgba(0, 0, 0, 0.20);
+}
+.logo{
+	height: 100px;
+	background: url("../Image/logo2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top
+}
+.navi ul{
+	list-style: none;
+}
+.navi li{
+	margin: 15px 12px 10px;
+}
+.navi li a{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 18px;
+	color: #f5ebe0;
+	text-decoration: none
+}
+.navi li a:hover{
+	text-decoration: underline;
+}
+.font li a{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color: #f5ebe0;
+	text-decoration: none;
+}
+.font li a:hover{
+	font-weight: 600;
+}
+.section1{
+	width: 100%;
+	background: #000000;
+	position: relative;
+}
+.h1{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 27px;
+	line-height: 40px;
+	color: #f5ebe0;
+}
+.h2{
+	margin: 20px 0px 40px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 45px;
+	color: #f5ebe0;
+}
+.text1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 40px;
+	color: #f5ebe0;
+}
+.img1{
+	height: 530px;
+	background: url("../Image/Jungwoo1.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.circle{
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background: #f5ebe0;
+	margin: 0px 10px 20px;
+}
+.opacity{
+	opacity: 0.4
+}
+.position{
+	position: absolute;
+	z-index: 1
+}
+.opacity:hover{
+	background-color: #f5ebe0;
+	opacity: 100%
+}
+.section2{
+	width: 100%;
+	position: relative;
+	background:#f5ebe0
+}
+.boxh3{
+	width: 100%;
+	padding: 70px 0px 30px;
+}
+.h3{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 45px;
+	color: #1F1F1F;
+}
+.border-bot{
+	border-bottom: 1px solid #1f1f1f
+}
+.img2{
+	height: 720px;
+	background: url("../Image/Tifbotanica.jpg");
+	background-size: contain;
+	background-repeat: no-repeat
+}
+.sub{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 20px;
+	color: #1F1F1F;
+	text-decoration: underline;
+	
+}
+.sub-margin{
+	margin: 30px 0px 0px
+}
+.sub-support{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #1F1F1F;
+	text-transform: capitalize
+}
+.sub-support:hover{font-weight: 500}
+.sub:hover{
+	font-weight: 600
+}
+.colorh2{
+	color: #1F1F1F
+}
+.img3{
+	height: 560px;
+	background: url("../Image/galgadot2.jpg"), url("../Image/jewelry1.jpg");
+	background-position: left, right;
+	background-size: 48% auto;
+	background-repeat: no-repeat
+}
+.text2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 27px;
+	color: #1F1F1F;
+	margin-top: 15px;
+	text-transform: uppercase
+}
+.img4{
+	height: 195px;
+	background: url("../Image/Tiffany-Co.-Blue-Book-2022.jpg"),url("../Image/galgadot3.jpg"),url("../Image/DIOR-PRINT-SHOW-ATMOSPHERE-TERRACE.jpg");
+	background-position: left, center, right;
+	background-size: 32% auto;
+	background-repeat: no-repeat;
+}
+.title{
+	width: 48%;
+}
+.container a{
+	text-decoration: none
+}
+.titlelatest{
+	width: 32%;
+}
+.margin-top{
+	margin-top: 50px;
+}
+.img5{
+	height: 195px;
+	background: url("../Image/Tag_Heuer1.jpg"), url("../Image/m2-macbook-air.jpg"), url("../Image/5926955_Cover_Cartier.jpg");
+	background-position: left, center, right;
+	background-size: 32% auto;
+	background-repeat: no-repeat;
+}
+.box{
+	width: 100%;
+	border: 1px solid #1f1f1f;
+	padding: 10px;
+}
+.box:hover{
+	background-color: #E3D5CA;
+}
+.banner{
+	height: 196.4px;
+	overflow: hidden;
+}
+.banner video{
+	width: 100%;
+	height: 196.4px;
+	object-fit: cover;
+}
+.text3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 27px;
+	color: #1F1F1F;
+	margin-top: 5px;
+}
+.text-right{
+	text-align: right;
+}
+/* .hover-zoom{
+	height: 350px;
+	overflow: hidden;
+}
+.hover-zoom img{
+	width: 100%;
+	transition: .8s all ease-in-out;
+}
+.hover-zoom img:hover{
+	transform: scale(1.1);
+} */
+.text-center{
+	text-align: center;
+}
+.margin-bot{
+	margin-bottom: 50px;
+}
+.padding-bot{
+	padding-bottom: 50px;
+}
+.emailbg{
+	height: 411px;
+	overflow: hidden;
+}
+.emailbg video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.email{
+	width: 100%;
+	position: absolute;
+	z-index: 3;
+}
+.logo2{
+	height: 50px;
+	background: url("../Image/logo2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+	margin-top: 40px;
+}
+.colorh3{
+	color: #f5ebe0;
+}
+.colorarrow{
+	color: #1F1F1F;
+}
+.boxmail{
+	background: #f5ebe0;
+	padding: 10px;
+}
+.text4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 27px;
+}
+ion-icon {
+	font-size: 20px;
+}
+.border-top{
+	border-top: 1px solid #f5ebe0;
+	padding: 10px 0px;
+}
+.logoapp ul{
+	list-style: none;
+}
+.logoapp li{
+	margin-right:5px;
+}
+.logoapp li a{
+	color: #f5ebe0;
+}
+.footer{
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	background: rgba(0, 0, 0, 0.20);
+}
+.border-right{
+	border-right: 1px solid #f5ebe0;
+	padding: 0px 10px;
+}
+.text4 ul{
+	list-style: none;
+}
+.text4 li a{
+	color: #f5ebe0;
+}
+.text4 li a:hover{
+	text-decoration: underline;
+}
+.hover-zoom1{
+	background: url("../Image/samsung2022neoqled8k.jpg");
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hover-zoom2{
+	background: url("../Image/Samsung-Bespoke-Two-Door-Refrigerator-Alex-Proba.jpeg");
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hover-zoom3{
+	background: url("../Image/bulgari-header.jpg");
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hover-zoom4{
+	background: url("../Image/IMG_5369.jpg");
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hover-zoom5{
+	background: url("../Image/ofelia.jpg");
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hover-zoom6{
+	background: url("../Image/hospital-playlist-2.jpg");
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
